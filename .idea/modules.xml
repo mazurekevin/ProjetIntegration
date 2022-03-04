@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/apiSpring.iml" filepath="$PROJECT_DIR$/apiSpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/integrationProject.iml" filepath="$PROJECT_DIR$/integrationProject.iml" />
     </modules>
   </component>
 </project>
