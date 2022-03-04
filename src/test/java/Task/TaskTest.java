@@ -23,7 +23,7 @@ public class TaskTest {
 
     @Test
     public void isContentValid() {
-        Assert.assertFalse(this.task.isContentValid(this.task.getContent()));    }
+        Assert.assertTrue(this.task.isContentValid(this.task.getContent()));    }
 
     @Test
     public void isTimeTrue() {
