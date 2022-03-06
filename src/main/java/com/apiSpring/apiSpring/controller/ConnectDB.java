@@ -8,6 +8,7 @@ public class ConnectDB {
 
         try {
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3307/todolist?autoReconnect=true&useSSL=false","root","root");
+           // Connection con = DriverManager.getConnection("jdbc:mysql://b02fc6a68294e9:375284d6@eu-cdbr-west-02.cleardb.net/heroku_3673ffd1e5cd834?reconnect=true","b02fc6a68294e9","375284d6");
             System.out.println("Connexion réussie");
             Statement stmt = con.createStatement();
             ResultSet rs = null;
